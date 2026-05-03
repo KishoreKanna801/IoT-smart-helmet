@@ -1,16 +1,22 @@
-#define BLYNK_TEMPLATE_ID "TMPL3Cr46Vt3s"
-#define BLYNK_TEMPLATE_NAME "IOT Based Smart Helmet"
-#define BLYNK_AUTH_TOKEN "uUrVOWrRg1RkmIYQ7Q0_WEVFmGHn4Tpa"
+/*
+Project: IoT Smart Helmet
+Author: Kishore Kanna P
+Description: Monitors gas, fall detection, and helmet usage using ESP8266 and sensors.
+*/
 
+#include "config.h"
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <Wire.h>
 #include <Arduino.h>
 #include <math.h>
 
-// Wi-Fi Credentials
-char ssid[] = "OnePlus Nord CE 3 Lite 5G";
-char pass[] = "9876543210";
+#define BLYNK_TEMPLATE_ID "TMPLxxxx"
+#define BLYNK_TEMPLATE_NAME "IOT Based Smart Helmet"
+#define BLYNK_AUTH_TOKEN "your_real_token"
+
+char ssid[] = "your_wifi";
+char pass[] = "your_password";
 
 // Sensor Pins
 #define MQ135_PIN A0

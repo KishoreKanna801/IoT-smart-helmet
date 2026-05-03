@@ -17,3 +17,14 @@ Sensors collect data → ESP8266 processes → sends alert to mobile
 
 ## Author
 Kishore Kanna P
+
+## 📸 Project Demo
+
+### 🔧 Hardware Setup
+![Hardware](Picture1.jpg)
+
+### 🔌 Circuit Diagram
+![Circuit](Picture2.jpg)
+
+### 📱 Output / Alerts
+![Output](Picture3.jpg)

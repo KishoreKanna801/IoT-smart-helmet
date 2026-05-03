@@ -30,5 +30,4 @@ Kishore Kanna P
 ![Output](Picture3.jpg)
 ![Output](Picture4.jpg)
 
-### 📱 Output / Alerts
-![Output](Picture3.jpg)
+
